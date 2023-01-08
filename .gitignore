@@ -43,7 +43,6 @@ node_modules/
 **/out/
 **/output/
 *compiled*
-edition*/
 coffeejs/
 coffee/
 es5/

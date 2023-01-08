@@ -10,10 +10,6 @@
     "binary extensions",
     "binary-extensions",
     "browser",
-    "deno",
-    "deno-edition",
-    "deno-entry",
-    "denoland",
     "es5",
     "export-default",
     "extensions",
@@ -131,20 +127,6 @@
         "node": "12 || 14 || 16",
         "browsers": false
       }
-    },
-    {
-      "description": "TypeScript source code made to be compatible with Deno",
-      "directory": "edition-deno",
-      "entry": "index.ts",
-      "tags": [
-        "typescript",
-        "import",
-        "deno"
-      ],
-      "engines": {
-        "deno": true,
-        "browsers": true
-      }
     }
   ],
   "types": "./compiled-types/",
@@ -159,7 +141,6 @@
       "import": "./edition-browsers/index.js"
     }
   },
-  "deno": "edition-deno/index.ts",
   "browser": "edition-browsers/index.js",
   "module": "edition-browsers/index.js",
   "devDependencies": {
